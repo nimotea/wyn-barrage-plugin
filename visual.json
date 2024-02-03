@@ -3,13 +3,15 @@
     "name": "barrage-plugin",
     "displayName": "",
     "displayNameKey": "",
-    "icon": "assets/icon.png",
+    "icon": "visualIcon",
     "description": "",
     "externalJs": [],
     "externalCss": [],
     "dependencies": [],
     "assets": {
-        "images": {}
+        "images": {
+            "visualIcon" : "assets/barrage.png"
+        }
     },
     "configuration": {},
     "cliVersion": "6.1.8"
