@@ -1,8 +1,8 @@
 {
     "id": "75536250-c1be-11ee-baa7-c53406acab03",
-    "name": "barrage-plugin",
-    "displayName": "",
-    "displayNameKey": "",
+    "name": "弹幕插件",
+    "displayName": "弹幕插件",
+    "displayNameKey": "弹幕插件",
     "icon": "visualIcon",
     "description": "",
     "externalJs": [],
