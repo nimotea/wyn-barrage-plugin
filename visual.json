@@ -1,0 +1,16 @@
+{
+    "id": "75536250-c1be-11ee-baa7-c53406acab03",
+    "name": "barrage-plugin",
+    "displayName": "",
+    "displayNameKey": "",
+    "icon": "assets/icon.png",
+    "description": "",
+    "externalJs": [],
+    "externalCss": [],
+    "dependencies": [],
+    "assets": {
+        "images": {}
+    },
+    "configuration": {},
+    "cliVersion": "6.1.8"
+}
