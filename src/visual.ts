@@ -8,7 +8,7 @@ export default class Visual extends WynVisual {
   private textName:string;
   private subject:Subject<any>;
   private danmamku:EasyDanmaku;
-  private processedKeys:any = {};
+  // private processedKeys:any = {};
 
   constructor(dom: HTMLDivElement, host: VisualNS.VisualHost, options: VisualNS.IVisualUpdateOptions) {
     super(dom, host, options);
@@ -33,12 +33,9 @@ export default class Visual extends WynVisual {
   this.subject.subscribe({
     next : (datas:Array<any>)=> {
       datas.forEach(item => {
-        if(!this.processedKeys[item[this.keyName]]){
           this.danmamku.send(item[this.textName],'danmaku-wrapper',function(){
                 console.log('发送成功');
             })
-          this.processedKeys[item[this.keyName]] = true;
-        }
       })
     },
     error: (err) => console.log(`Received an error: ${err}`),
